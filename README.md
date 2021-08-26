@@ -7,3 +7,5 @@
     Once on the page, hover over the side menu, and under parts, select a category via the drop-down menu, enter the date of when the repair happened, and the brand.
 
     Click refresh, and the history of entries show up on the right side of the page.
+
+![Alt Text](Intro.gif)
