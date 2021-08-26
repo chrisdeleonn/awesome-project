@@ -8,4 +8,4 @@
 
     Click refresh, and the history of entries show up on the right side of the page.
     
-    ![](https://github.com/chrisdeleonn/awesome-project/blob/main/Intro.gif)
+    
