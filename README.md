@@ -8,4 +8,4 @@
 
     Click refresh, and the history of entries show up on the right side of the page.
     
-    ![ Alt text](Intro.gif)
+    ![Alt text](Intro.gif)
