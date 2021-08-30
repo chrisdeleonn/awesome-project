@@ -14,6 +14,7 @@ const ProfileCreateForm = ({ visible, setShow }) => {
 				return res;
 			})
 			.then((data) => console.log(data));
+		window.location.reload();
 	};
 
 	return (
@@ -33,17 +34,25 @@ const ProfileCreateForm = ({ visible, setShow }) => {
 			>
 				<Form.Item
 					name="datelastchecked"
-					label="Date Last Checked"
+					label="Date"
 					rules={[
 						{
-							required: true,
-							message: "Please enter the date last checked.",
+							message: "Please enter a date.",
 						},
 					]}
 				>
 					<Input />
 				</Form.Item>
-				<Form.Item name="brand" label="Brand">
+				<Form.Item
+					name="brand"
+					label="Mileage / Brand"
+					rules={[
+						{
+							required: true,
+							message: "Please enter the mileage and brand.",
+						},
+					]}
+				>
 					<Input type="textarea" />
 				</Form.Item>
 				<Form.Item

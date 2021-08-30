@@ -38,7 +38,7 @@ function App() {
 					<Header style={{ padding: 10, zIndex: 10 }}>
 						<Avatar style={{ float: "right" }} src="./car_wheel_icon.png" />
 						<Title />
-						<p id="neonText">Boca Tune-Up</p>
+						<p id="neonText">Glovebox</p>
 					</Header>
 					<Layout
 						style={{
