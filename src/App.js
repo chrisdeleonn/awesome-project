@@ -35,7 +35,7 @@ function App() {
 							backgroundSize: "cover",
 							position: "absolute",
 							backgroundAttachment: "fixed",
-							backgroundPosition: 57 % "center",
+							backgroundPosition: "57% center",
 						}}
 					></div>
 					<Header style={{ padding: 10, zIndex: 10, float: "right" }}>
