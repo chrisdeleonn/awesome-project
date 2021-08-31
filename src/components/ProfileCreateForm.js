@@ -2,8 +2,6 @@ import { Modal, Form, Input, Button } from "antd";
 
 const ProfileCreateForm = ({ visible, setShow }) => {
 	const handleFormSubmit = (formValues) => {
-		console.log(formValues);
-
 		fetch(`${process.env.REACT_APP_API_ENDPOINT}/api/cars/addEntry`, {
 			method: "POST",
 			headers: { "Content-type": "application/json" },
