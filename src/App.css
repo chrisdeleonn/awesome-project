@@ -47,6 +47,8 @@
 .element-style {
 	padding: 10px;
 	z-index: 10;
+	background-attachment: none !important ;
+	background-position: none !important;
 }
 .ant-layout-footer {
 	padding: 0%;

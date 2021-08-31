@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Layout, Menu, Avatar } from "antd";
+import { Layout, Menu } from "antd";
 import Title from "antd/lib/typography/Title";
 import SubMenu from "antd/lib/menu/SubMenu";
 import ProfileCreateForm from "./components/ProfileCreateForm";
+import AllMyLogs from "./components/AllMyLogs";
+import DropDownButton from "./components/DropDownButton";
 
 import HomeOutlined from "@ant-design/icons/HomeOutlined";
 import ToolOutlined from "@ant-design/icons/ToolOutlined";
@@ -13,7 +15,6 @@ import BgColorsOutlined from "@ant-design/icons/BgColorsOutlined";
 import YuqueOutlined from "@ant-design/icons/YuqueOutlined";
 import FilterOutlined from "@ant-design/icons/FilterOutlined";
 
-import AllMyLogs from "./components/AllMyLogs";
 import "./App.css";
 
 const { Header, Footer, Sider } = Layout;
@@ -33,10 +34,12 @@ function App() {
 							backgroundRepeat: "no-repeat",
 							backgroundSize: "cover",
 							position: "absolute",
+							backgroundAttachment: "fixed",
+							backgroundPosition: 57 % "center",
 						}}
 					></div>
-					<Header style={{ padding: 10, zIndex: 10 }}>
-						<Avatar style={{ float: "right" }} src="./car_wheel_icon.png" />
+					<Header style={{ padding: 10, zIndex: 10, float: "right" }}>
+						<DropDownButton />
 						<Title />
 						<p id="neonText">Glovebox</p>
 					</Header>
